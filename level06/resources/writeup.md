@@ -16,7 +16,7 @@ Je récupère donc le binaire sur ma machine avec **scp -P 4242 [level06@172.20.
 
 Je le passe dans cutter et je vois que le binaire effectue un execve avec /usr/bin/php pour lancer level06.php :
 
-![Untitled](./resources/screenshots/Untitled%207.png)
+![Untitled](./screenshots/Untitled%207.png)
 
 si on fait un ls -la | grep php dans /usr/bin, on remarque aue php est lié symboliquement à /etc/alternatives/php.
 

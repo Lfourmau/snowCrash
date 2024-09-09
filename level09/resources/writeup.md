@@ -22,7 +22,7 @@ ca a l’air de bien reverse la chaine. Je vais essayer d’ajouter la lecture d
 
 Le programme renvoie une chaine qui n’est pas la bonne.
 
-![Untitled](./resources/screenshots/Untitled%209.png)
+![Untitled](./screenshots/Untitled%209.png)
 
 Je me dit qu’il faut peut être ignorer les chars qui sortent de la table ascii, donc j’ajoute une condition et j’obtient une string acceptable (f3iji1ju5uea411afi) mais c’est pas ca.
 

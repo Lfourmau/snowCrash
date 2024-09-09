@@ -10,7 +10,7 @@ J’essaie **tcpdump -qns 0 -A -r level02.pcap** (utilisable sans gui sur linux)
 
 Sur wireshark je vois la même chose, c’est écrit password mais je vois pas ce que c’est. Si je fais clic droit sur le paquet en question puis “suivre le flux tcp”, je vois un peu + d’infos :
 
-![Untitled](./resources/screenshots/Untitled%202.png)
+![Untitled](./screenshots/Untitled%202.png)
 
 j’ai essayé de prendre la string rouge et de la décoder sur crackstation et dcode ca n’a pas donné le bon mdp.
 
@@ -20,7 +20,7 @@ Si on met tous les paquets sur Dcode il y a une bonne correspondance pour l’al
 
 En fait quand on regarde les paquets avec wireshark on remarque que c’est un échange entre deux machines. L’une semble voir se connecter à l’autre en envoyants des creds mais l’autre renvoie login incorrect.
 
-![Untitled](./resources/screenshots/Untitled%203.png)
+![Untitled](./screenshots/Untitled%203.png)
 
 Sur ce screen on voit bien l’échange (rouge vs bleu), on dirait que le mot de passe est envoyé en plusieurs parties ?
 

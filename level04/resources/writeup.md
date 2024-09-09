@@ -2,7 +2,7 @@
     
 Le script perl contient ca :
 
-![Untitled](./resources/screenshots/Untitled%205.png)
+![Untitled](./screenshots/Untitled%205.png)
 
 On voit qu’echo est encore utilisé. Je vais tenter la même manip.
 

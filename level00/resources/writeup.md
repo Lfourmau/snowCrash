@@ -4,7 +4,7 @@
 
 1. cat /etc/passwd. It works. We can see the flag01 : **42hDRfypTqqnw**
     
-    ![Untitled](./resources/screenshots/Untitled.png)
+    ![Untitled](./screenshots/Untitled.png)
     
 2. i tried to connect to flag01 with this pwd but does not work
 3. Then we execute `find / -perm -u=s -type f 2>/dev/null` ****to find all SUID files. We compare this list to GTFO bin list. We found that the **mtr** program could allow us to read files we should not but we don’t know the folders enough to target a file.
@@ -32,7 +32,7 @@
     
     Can we write to any paths present in cron jobs.................. yes!
     
-    ![Untitled](./resources/screenshots/Untitled%201.png)
+    ![Untitled](./screenshots/Untitled%201.png)
     
     The getFlag program takes the uid (**getuid()**) of the user who ran it to perform some checks and give or not the flag.
     

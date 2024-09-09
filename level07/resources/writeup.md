@@ -6,7 +6,7 @@ Je le récupère donc sur ma machine avec **scp -P 4242** [level07@172.20.10.2](
 
 Je l’ai balancé sur DogBolt et il semblerait que le main utilise la var d’environnement LOGNAME et echo :
 
-![Untitled](./resources/screenshots/Untitled%208.png)
+![Untitled](./screenshots/Untitled%208.png)
 
 J’ai fait un export LOGNAME=test puis j’ai relancé le programme, il affiche bien test. 
 

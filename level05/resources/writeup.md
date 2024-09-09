@@ -2,7 +2,7 @@
     
 Pendant la reco au lvl 00 j’avais vu :
 
-![Untitled](./resources/screenshots/Untitled%206.png)
+![Untitled](./screenshots/Untitled%206.png)
 
 Du coup j’essaye de cat le fichier :
 

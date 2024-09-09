@@ -8,7 +8,7 @@ Je vais tenter de voir ce que donne le fichier sur DogBolt
 
 On voit que le programme fait appel à /usr/bin/env puis echo:
 
-![Untitled](./resources/screenshots/Untitled%204.png)
+![Untitled](./screenshots/Untitled%204.png)
 
 Le programme utilise echo du coup on fait un script qu’on appelle echo dans /run/shm (car cet endroit est accessible en écriture). Le contenu du script est : ***exec /bin/getflag***
 
