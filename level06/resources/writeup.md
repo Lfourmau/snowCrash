@@ -1,3 +1,5 @@
+## Level06
+
 On voit dans le home qu’on a accès à un binaire et un fichier php qui appartiennent tous deux à level06.
 
 Quand on tente de lancer le binaire, on a un message d’erreur php nous disant que le filename ne peut pas être vide. Donc j’ai essayé **./level06 /etc/passwd** pour voir et le fichier s’est affiché. Il est donc possible que ce binaire permette de lire des fichiers dont on a pas les droits.
@@ -14,7 +16,7 @@ Je récupère donc le binaire sur ma machine avec **scp -P 4242 [level06@172.20.
 
 Je le passe dans cutter et je vois que le binaire effectue un execve avec /usr/bin/php pour lancer level06.php :
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/16ad7c51-07e0-4d87-aa46-423fe70c1477/b0123cc1-0c4d-464e-86a2-4f0938dcce3c/Untitled.png)
+![Untitled](./resources/screenshots/Untitled%207.png)
 
 si on fait un ls -la | grep php dans /usr/bin, on remarque aue php est lié symboliquement à /etc/alternatives/php.
 
@@ -57,8 +59,8 @@ Je fais mes tests sur le php playground avec
 
 Et je modifie le x exec /bin/flag en avant dernière ligne pour voir ce qui est print
 
-AAvec la syntaxe d’exec php avec ${} et les backticks on met ca dans le fichier :
+Avec la syntaxe d’exec php avec ${} et les backticks on met ca dans le fichier :
 
 **[x ${``getflag``}**
 
-Ensuite on lanc level06 avec notre fichier en arg et on a le flag **wiok45aaoguiboiki2tuin6ub** pour se connecter au level07
+Ensuite on lanc level06 avec notre fichier en arg et on a le flag **wiok45aaoguiboiki2tuin6ub** pour se connecter au level07 

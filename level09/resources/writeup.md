@@ -1,3 +1,5 @@
+## Level09
+
 Même départ que le level08, un elf “level09” et un fichier “token”.
 
 Je tente de lancer l’exec et il demande 1 argument. Je lance donc “./level09 hey” et le programme semble me retourner ma string encodée.
@@ -20,7 +22,7 @@ ca a l’air de bien reverse la chaine. Je vais essayer d’ajouter la lecture d
 
 Le programme renvoie une chaine qui n’est pas la bonne.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/16ad7c51-07e0-4d87-aa46-423fe70c1477/e3661690-356e-4e17-ba2e-e30d6aac5e75/Untitled.png)
+![Untitled](./resources/screenshots/Untitled%209.png)
 
 Je me dit qu’il faut peut être ignorer les chars qui sortent de la table ascii, donc j’ajoute une condition et j’obtient une string acceptable (f3iji1ju5uea411afi) mais c’est pas ca.
 
@@ -86,9 +88,9 @@ except IOError:
     sys.exit(1)
 ```
 
-https://www.commentcoder.com/python-enumerate/
+[https://www.commentcoder.com/python-enumerate/](https://www.commentcoder.com/python-enumerate/)
 
-https://www.programiz.com/python-programming/methods/built-in/ord
+[https://www.programiz.com/python-programming/methods/built-in/ord](https://www.programiz.com/python-programming/methods/built-in/ord)
 
 Puis j’ai fait **python [monscript] token**  et j’ai obtenu la string **f3iji1ju5yuevaus41q1afiuq** qui m’a permi de me co a flag09
 
