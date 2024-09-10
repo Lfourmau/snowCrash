@@ -27,7 +27,7 @@ On remarque alors que le programme mentionne /opt/openarenaserver, qui est un di
 
 On dirait que le programme tente d’exécuter tout ce qui se trouve dans /opt/openarenaserver
 
-donc je met un script qui appelle getflag dedans (j’ai repris le cho des lvl précédents)
+donc je met un script qui appelle getflag dedans (j’ai repris le echo des lvl précédents)
 
 Vu la crontab, on devrait avoir le flag au bout de deux minutes si ca marche.
 
