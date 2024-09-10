@@ -25,7 +25,6 @@
     passwd file: /etc/passwd
     passwd file: /usr/share/lintian/overrides/passwd
         
-        z
         
     
     The we tried to run [lse.sh](http://lse.sh) :
@@ -44,7 +43,7 @@
     
     J’essaye de copier getflag dans le dossier php5 et de le renommer en *maxlifetime* car le crontab à l’air d’exécuter ça. Toujours pas de résultat. Logique la cron semble tourner toutes les trente minutes
     
-    Grace à la vidéo de snowCrash, on à un indice avec le mot FIND en majuscule. On cherche dond des fichiers qui s’appellent flag00 avec find : pas de résultat. On cherche ensuite récursivement la string ‘flag00’ dans tous les folders. Sans résultats non plus. 
+    Grace à la vidéo de snowCrash, on à un indice avec le mot FIND en majuscule. On cherche donc des fichiers qui s’appellent flag00 avec find : pas de résultat. On cherche ensuite récursivement la string ‘flag00’ dans tous les folders. Sans résultats non plus. 
     
     **Du coup on cherche les fichiers qui appartiennent à cet user : find . -user 3000 2>/dev/null**
     
