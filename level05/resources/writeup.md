@@ -33,6 +33,6 @@ Vu la crontab, on devrait avoir le flag au bout de deux minutes si ca marche.
 
 Je vois que le fichier que j’ai ajouté dans /opt/openarenaserver a été delete, donc la crontab est passée. J’ai pas eu d’output donc je modifie le script et je tape **echo 'getflag > /tmp/kekchose.txt' > exploit**
 
-j’attends un peu et je vois que mon programme a été de nouveau supprimé donc je vais voir si /tmp/level05.txt a été créé. Je tente donc un cat et j’obtiens le flag pour se co au level 06 : 
+j’attends un peu et je vois que mon programme a été de nouveau supprimé donc je vais voir si /tmp/kekchose.txt a été créé. Je tente donc un cat et j’obtiens le flag pour se co au level 06 : 
 
 **viuaaale9huek52boumoomioc**
