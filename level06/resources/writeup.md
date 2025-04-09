@@ -61,6 +61,6 @@ Et je modifie le x exec /bin/flag en avant dernière ligne pour voir ce qui est 
 
 Avec la syntaxe d’exec php avec ${} et les backticks on met ca dans le fichier :
 
-**[x ${``getflag``}**
+**[x ${\`getflag\`}**
 
 Ensuite on lanc level06 avec notre fichier en arg et on a le flag **wiok45aaoguiboiki2tuin6ub** pour se connecter au level07 
