@@ -31,7 +31,7 @@ donc je met un script qui appelle getflag dedans (j’ai repris le echo des lvl 
 
 Vu la crontab, on devrait avoir le flag au bout de deux minutes si ca marche.
 
-Je vois que le fichier que j’ai ajouté dans /opt/openarenaserver a été delete, donc la crontab est passée. J’ai pas eu d’output donc je modifie le script et je met **exec /bin/getflag > /tmp/level05.txt** pour que l’output soit gardé quelque part.
+Je vois que le fichier que j’ai ajouté dans /opt/openarenaserver a été delete, donc la crontab est passée. J’ai pas eu d’output donc je modifie le script et je met **exec /bin/getflag > /tmp/level05.txt** pour que l’output soit gardé quelque part. NE PAS OUBLIER DE CHMOD +x L FICHIER
 
 j’attends un peu et je vois que mon programme a été de nouveau supprimé donc je vais voir si /tmp/level05.txt a été créé. Je tente donc un cat et j’obtiens le flag pour se co au level 06 : 
 
